@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "avrogoSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1668507868,
+        "narHash": "sha256-AG8vkrs5c548oiyDI5EC2nPNuV9jhcVQyC/FrGeSvCI=",
+        "owner": "heetch",
+        "repo": "avro",
+        "rev": "38654deca879c52ff47e312d55551c1422f9edb9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "heetch",
+        "ref": "v0.4.4",
+        "repo": "avro",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1670930796,
+        "narHash": "sha256-TggUyB9kcAXaiTgxzavGH42jYGLYPEwvY5QuJSaPFkc=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "9159658fae569ba7e6d9b09c373a2866bb4bb0d6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "avrogoSrc": "avrogoSrc",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

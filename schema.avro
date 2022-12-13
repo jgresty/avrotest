@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "name": "Data",
+  "namespace": "test",
+  "connect.version": 1,
+  "connect.name": "test.Data",
+	"default": null,
+  "fields": [
+    {
+      "name": "data",
+			"default": null,
+      "type": [
+					"null",
+					{
+							"type": "array",
+							"items": [
+									"null",
+									"string"
+							]
+					}
+			]
+		}
+	]
+}
